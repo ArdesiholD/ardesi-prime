@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=64", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ardesi-prime"
+version = "0.3.0"
+description = "Pattern Binario Ardesi: pre-filtro per test di primalità (CLI)"
+readme = "README.md"
+authors = [{ name = "Marco Ardesi" }]
+license = { file = "LICENSE" }
+requires-python = ">=3.9"
+keywords = ["prime", "primality", "miller-rabin", "ardesi"]
+
+[project.scripts]
+ardesi-prime = "ardesi_prime:main"
+
+[project.urls]
+Homepage = "https://github.com/<tuo-utente>/ardesi-prime"
